@@ -8,9 +8,8 @@
 	}],
 	"license": "BSD-2-Clause",
     "require": {
-        "silverstripe/cms": "~4.0",
-        "silverstripe/framework": "~4.0",
-        "silverstripe/vendor-plugin": "^1.0"
+        "silverstripe/framework": "*",
+        "silverstripe/vendor-plugin": "*"
     },
     "autoload": {
         "psr-4": {
