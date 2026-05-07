@@ -12,8 +12,8 @@ class RightSidebar extends CompositeField
 {
     public function __construct($name)
     {
-        Requirements::css('restruct/silverstripe-rightsidebar:css/cms.css');
-        Requirements::javascript('restruct/silverstripe-rightsidebar:js/cms.js');
+        Requirements::css('restruct/rightsidebar:css/cms.css');
+        Requirements::javascript('restruct/rightsidebar:js/cms.js');
 
         $args = func_get_args();
 
